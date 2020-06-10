@@ -77,52 +77,6 @@ header {
 }
 
 
-.bloc_carte__lien--flex {
-}
-
-.bloc_carte_lien--background_menu1 {
-    text-decoration: none;
-}
-
-
-.bloc_carte__titre--font_menu1 {
-    color: $font_menu_1;
-    font-family: "Devonshire";
-    font-size: 3em;
-    font-weight: normal;
-}
-
-.bloc_carte__paragraphe--font2_menu1 {
-    font-family: "Segoe_Print_Bold";
-    color: $font_menu_1;
-    text-align: center;
-}
-
-.bloc_carte__paragraphe--font {
-    font-size: 4em;
-    padding-top: 0.4em;
-}
-
-
-.bloc_carte_lien--background_menu2 {
-    background-color: $fond_menu_2;
-}
-
-.bloc_carte__titre--font_menu2 {
-    font-family: "Croissant One";
-    font-size: 2.3em;
-    font-weight: normal;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, $font_menu_2_1, $font_menu_2_2, $font_menu_2_3);
-}
-
-.bloc_carte__paragraphe--font2_menu2 {
-    color: $font_menu_2_1;
-    font-family: "Pax_bold";
-}
-
 
 
 
@@ -637,24 +591,24 @@ a
 
 @media screen and (max-width: 800px) {
     .bloc_menu {
-        width: 30%;
-        margin: 0 35%;
+        width: 80%;
+        margin: 0 10%;
         margin-top: 10px;
         }
     .bloc_carte {
         width: 100%;
         margin: 2% 3%;
         }
-    .bloc_page_1 {
-        font-size: 50%;
+        .bloc_page_1 {
+            font-size: 50%;
         }
-            .bloc_page_2 {
-        font-size: 50%;
+        .bloc_page_2 {
+            font-size: 50%;
         }
-            .bloc_page_3 {
-        font-size: 50%;
+        .bloc_page_3 {
+            font-size: 50%;
         }
-            .bloc_page_4 {
-        font-size: 50%;
+        .bloc_page_4 {
+            font-size: 50%;
         }
 }
